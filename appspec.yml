@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /web/
+    destination: /web/rep
 hooks:
   AfterInstall:
     - location: scripts/mkdir.sh
